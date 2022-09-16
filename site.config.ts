@@ -1,4 +1,4 @@
-import { siteConfig } from './lib/site-config'
+import { siteConfig } from './.lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'akiralab-blog',
+  name: "Akira's Workspace",
   // domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
   domain: 'blog-akiralab.vercel.app',
   author: 'Akira Kawai',
@@ -18,8 +18,8 @@ export default siteConfig({
   description: 'Example Next.js Notion Starter Kit Site',
 
   // social usernames (optional)
-  twitter: '#',
-  github: '#',
+  twitter: 'le0_rosso',
+  github: 'akiralab',
   linkedin: '#',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
