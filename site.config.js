@@ -1,14 +1,14 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
   // rootNotionPageId: '78fc5a4b88d74b0e824e29407e9f1ec1',
-  rootNotionPageId: 'cc7726dd617345d1813bda034d4da4d8',
+  rootNotionPageId: 'd2d1d1def5204de7b0a875d0867f8c6d',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'akiralab-blog',
+  name: "Akira's Workspace",
   domain: 'blog-akiralab.vercel.app',
   author: 'Akira Kawai',
 
@@ -18,9 +18,9 @@ module.exports = {
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
-  twitter: '#',
-  github: '#',
-  linkedin: '#',
+  twitter: 'akiralab',
+  github: 'akiralab',
+  // linkedin: '#',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
